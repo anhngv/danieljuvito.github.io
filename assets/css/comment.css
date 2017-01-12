@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,600);
+#disqus_thread {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  margin-bottom: 50px;
+  background: cadetblue;
+}
+#disqus_thread h4 {
+  margin: 5px 20px;
+}
+#disqus_thread .timestamp {
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+#disqus_thread hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+#disqus_thread .container {
+  display: flex;
+  justify-content: center;
+}
+#disqus_thread .comment-box {
+  width: 100%;
+  margin-top: 0px;
+  background: #fff;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#disqus_thread .comment-box p {
+  margin: 0 0px 15px;
+  font-weight: 300;
+  color: #333;
+  word-wrap: break-word;
+  background: #EEE;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+#disqus_thread .header {
+  margin: 15px 0px;
+  font-size: 27px;
+  font-weight: 600;
+}
+#disqus_thread form {
+  margin: 10px 0px 10px 0px;
+}
+#disqus_thread form ::-webkit-input-placeholder {
+  color: #CCC;
+  font-weight: 300;
+}
+#disqus_thread input[type="text"], #disqus_thread textarea {
+  margin: 5px 0px;
+  outline: none;
+  background: #efefef;
+  border: 0;
+  padding: 10px;
+}
+#disqus_thread textarea {
+  resize: none;
+  width: 85%;
+}
+#disqus_thread input[type="text"] {
+  width: 50%;
+  margin-bottom: 15px;
+}
+#disqus_thread button {
+  font-weight: 400;
+  margin: 12px 0 0 0px;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  background: #D3775D;
+  padding: 12px 20px 12px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+#disqus_thread button:hover {
+  background: #C15322;
+}
+#disqus_thread .footer p {
+  float: right;
+  font-size: 13px;
+  margin-bottom: 10px;
+  background: #FFF;
+}
